@@ -49,21 +49,21 @@ flag_metrics:
 
   ### AOM_v1
   - name: "api_down"
-    service: "aom_v1"
+    service: "aomv1"
     template:
       name: "api_down"
     environments:
       - name: "production_eu-de"
 
   - name: "api_slow"
-    service: "aom_v1"
+    service: "aomv1"
     template:
       name: "api_slow"
     environments:
       - name: "production_eu-de"
 
   - name: "api_success_rate_low"
-    service: "aom_v1"
+    service: "aomv1"
     template:
       name: "api_success_rate_low"
     environments:
@@ -71,21 +71,21 @@ flag_metrics:
 
   ### AOM_v2
   - name: "api_down"
-    service: "aom_v2"
+    service: "aomv2"
     template:
       name: "api_down"
     environments:
       - name: "production_eu-de"
 
   - name: "api_slow"
-    service: "aom_v2"
+    service: "aomv2"
     template:
       name: "api_slow"
     environments:
       - name: "production_eu-de"
 
   - name: "api_success_rate_low"
-    service: "aom_v2"
+    service: "aomv2"
     template:
       name: "api_success_rate_low"
     environments:
